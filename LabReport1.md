@@ -27,7 +27,7 @@ A17525730
 2. `ls` with path to directory as given argument: <br>
 ![Image](lsExample2.png) <br>
 * The working directory at the start was the root directory.
-* The output of running the 'ls' command with the path to a directory as an argument lists the contents of the passed directory.
+* The output of running the `ls` command with the path to a directory as an argument lists the contents of the passed directory.
 * The output is not an error.
 3. `ls` with path to file as given argument: <br>
 ![Image](lsExample3.png) <br>
