@@ -15,8 +15,8 @@ A17525730
 3. `cd` with path to file as given argument: <br>
 ![Image](cdExample3.png) <br>
 * The working directory at the start was `lecture1`
-* The output of running the `cd` command with the passed argument as a path to a file causes an error to occur. The command line says `bash: cd: Hello.java: Not a directory`
-* The output of this is an error because the `cd` command navigate to a directory and files are not directories
+* The output of running the `cd` command with the passed argument as a path to a file causes an error to occur. The command line says `bash: cd: Hello.java: Not a directory`.
+* The output of this is an error because the `cd` command navigates to a directory, and files are not directories.
 
 ## __`ls` Command Output__
 1. `ls` with no given arguments: <br>
