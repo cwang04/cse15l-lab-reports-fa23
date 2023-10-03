@@ -5,10 +5,8 @@ Hello World!
 ============
 Hello World!
 ------------
-[Link][1]
-[1]:https://commonmark.org/help/
-![Image][1]
-[1]:http://url/b.jpg
+[Link](https://commonmark.org/help/)
+![Image](http://url/b.jpg)
 >D
 >d
 -1
