@@ -37,7 +37,7 @@ A17525730
 
 ## __`cat` Command Output__
 1. `cat` with no given arguments: <br>
-![Image](catExample1.png <br>
+![Image](catExample1.png) <br>
 * The working directory at the start was the root directory.
 * The output of running the `cat` command with no arguments causes it to wait and prompt the user to enter some sort of argument, as shown by it not calling the terminal line again.
 * The output is not an error since it just waits for an output.
