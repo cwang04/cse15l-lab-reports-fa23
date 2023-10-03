@@ -40,7 +40,7 @@ A17525730
 ![Image](catExample1.png) <br>
 * The working directory at the start was the root directory.
 * The output of running the `cat` command with no arguments causes it to wait and prompt the user to enter some sort of argument, as shown by it not calling the terminal line again.
-* The output is not an error since it just waits for an output.
+* The output is not an error since it just waits for an input.
 2. `cat` with path to directory as given argument: <br>
 ![Image](catExample2.png) <br>
 * The working directory at the start was the root directory.
