@@ -1,7 +1,7 @@
 # Week 3: Lab Report 2
 ## Part 1: String Server
 ### Code:
-`import java.io.IOException;
+```import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
@@ -38,7 +38,7 @@ class StringServer {
 
         Server.start(port, new Handler());
     }
-}`
+}```
 
 ![StringServer 1](StringServer1.png)
 - Excluding the work that is done by `Server.java`, there is only one method in my code that gets called, which is `HandleRequest` inside of the class `Handler`.
