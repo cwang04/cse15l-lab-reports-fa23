@@ -43,7 +43,7 @@ static int[] reversed(int[] arr) {
 ## Part 2 - Researching Commands:
 # documentation for grep command options retrieved from [linuxcommand.org](https://linuxcommand.org/lc3_man_pages/grep1.html)
 1. -r is an option for grep that recursively searches for the phrase under each directory.
-- Example 1:
+- Example 1:  
 `grep -r "base pair" technical/biomed`
 ```
 a lot of lines
@@ -53,12 +53,12 @@ technical/biomed/gb-2003-4-4-r24.txt:        important considering that within a
 technical/biomed/rr196.txt:          approximately 500 base pairs upstream of the stop codon,
 ```
 This command goes to recursively find the instances of the phrase "base pair" within the technical/biomed sub directory. This can be useful if you just want to specify a directory to go through to find the matching phrase.
-- Example 2:
-`grep -r "base pair" technical/plos > grep-plos.txt`
-`no output`
+- Example 2:  
+`grep -r "base pair" technical/plos > grep-plos.txt`  
+`no output`  
 This command gives no output because it instead redirects the outputs into a file called `grep-plos.txt`. This is very useful because we can then use other linux commands on the file like `wc`, instead of looking at a mass text output.
 2. -i is an option for grep that will ignore case when searching for a phrase.
-- Example 1:
+- Example 1:  
 `grep -i "Base pair" technical/biomed/*.txt`  
 ```
 a lot of lines
@@ -100,8 +100,8 @@ technical/biomed/rr196.txt:200:          approximately 500 base pairs upstream o
 Here we can see the line number that the phrase appears on for the file show up at the end. Having the line number for all of these points allows us to quickly find where the phrase shows up in multiple files.
 4. -c option for grep command gives the count of matches within files.
 - Example 1:  
-`grep -i -c "the" technical/biomed/gb-2002-3-12-research0079.txt`
-`509`
+`grep -i -c "the" technical/biomed/gb-2002-3-12-research0079.txt`  
+`509`  
 This option here allows us to quickly find the total number of instances of a specific phrase inside of a file which maybe what we want. This allows us to avoid having to use another command, like using `wc`, or time to find the total occurences of the matched phrase within a file.
 - Example 2:  
 `grep -r -c "the" technical/biomed`
