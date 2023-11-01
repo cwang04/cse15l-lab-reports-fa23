@@ -54,7 +54,7 @@ class StringServer {
 ## Part 2: SSH Key
 ![ssh](sshkeys.png)
 - The path to the private ssh key is `C:\Users\cjwan\.ssh\id_rsa`
-- The path to the public ssh key is `C:\Users\cjwan\.ssh\id_rsa.pub`
+- The path to the public ssh key is `/home/linux/ieng6/cs15lfa23/cs15lfa23ms/.ssh/authorized_keys`
 ![login](login.png)
 
 ## Part 3
