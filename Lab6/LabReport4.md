@@ -28,7 +28,8 @@ To open Vim, I typed the command `vim` followed by `L<tab>`, which autocompleted
 - Explanation:
 Since I had previously ran the bash script to autograde the file, I just needed to go back into my history to the point where I used it, which was only two command ago, thus I pressed `<up>` twice then `<enter>` to run the autograder again.
 ### Step 9: Committing and Pushing to GitHub
-![Git](Step9.png)
+![Vim Commit](Step9.1.png)
+![Git](Step9.2.png)
 - Key Input: `git add .<enter>` `git commit<enter>` `ifixed error<escape>:wq<enter>` `git push`
 - Explanation:
 The first thing I had to do was add the changes I made to the local repository, which I did by typing `git add .`, the use of the `.` allowed me to not have to type out `ListExamples.java` since it added all the files in the repository even though only one file was changed. The next thing was to commit this add locally, so I typed the command `git commit<enter>`, which opened up a Vim editor. There I typed the commit message by typing `i` to enter insert mode, typing the commit message: `fixed error`, then saving and quitting by entering normal mode, press `<escape`, and then `:wq<enter>`. Finally I needed to push these changes to GitHub, which I did by typing `git push`.
