@@ -16,7 +16,7 @@ While the terminal was connecting to `ieng6`, I was on the repository page of my
 ![Failed Tests](Step6.png)
 - Key Input: `cd l<tab>` `bash t<tab>`
 - Explanation: 
-To run the tests, I navigated to the cloned repository by typing `cd l<tab>` The tab auto-completed to `lab7`, since it was the only directory that started with an l. Then the next step was to run the auto grader provided, which I did by typing `bash t<tab>`, again auto-completing to the only file that started with a t.
+To run the tests, I navigated to the cloned repository by typing `cd l<tab>` The tab auto-completed to `lab7`, since it was the only directory that started with an l. Then the next step was to run the auto grader provided, which I did by typing `bash t<tab>`, again auto-completing to `test.sh` the only file that started with a t.
 ### Step 7: Vim Editing
 ![Vim](Step7.png)
 - Key Input: `vim L<tab>.java` `43jei<delete>2<escape>:wq<enter>`
