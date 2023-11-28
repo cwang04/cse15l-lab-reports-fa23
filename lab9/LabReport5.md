@@ -1,4 +1,4 @@
-# Week 7: Lab Report 4 Vim
+# Week 9: Lab Report 5 Debugging
 ### Colin Wang
 ## Part 1: Debugging Scenario
 ### 1. Student:
