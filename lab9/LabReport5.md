@@ -13,7 +13,7 @@ After running the compile command, `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/j
 ![Compiled](Prompted.png)
 
 ### 4.
-* ![file directory](filediretory.png)
+* ![file directory](filedirectory.png)
 * `test.sh`: 
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
